@@ -6,10 +6,24 @@
 </head>
 <body>
 <form>
-  Add a place: <input type = "text"><br>
-  <div onclick = "JavaScript_Submit-One.js">Submit</div>
-  Add a place: <input type = "text"><br>
-  <div onclick = "JavaScript_Submit-Two.js">Submit</div>
-    
+  Add a place: <input type = "text" id = "personOne"><br>
+  <div onclick = "submitOneFunction()">Submit</div>
+  Add a place: <input type = "text" id = "personTwo"><br>
+  <div onclick = "submitTwoFunction()">Submit</div>
+</form>
+<script type="text/javascript">
+var arrayOne = []
+var arrayTwo = []
+var arrayInCommon = []
+function submitOneFunction {
+  arrayOne.push(getElementById(personOne));
+};
+function submitTwoFunction {
+  arrayTwo.push(getElementById(personTwo));
+};
+function sortArrays {
+  
+};
+</script>
 </body>
 </html>
